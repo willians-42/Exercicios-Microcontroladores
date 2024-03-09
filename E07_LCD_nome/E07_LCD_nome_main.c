@@ -49,3 +49,4 @@ Configuração do display LCD:
     }
     return;
 }
+
