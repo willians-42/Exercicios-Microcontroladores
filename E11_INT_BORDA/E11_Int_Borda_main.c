@@ -38,7 +38,7 @@ void main(void) {
 void __interrupt() interrompe(void) { 
     if (INTCONbits.RBIF) {  //*Se houver interrupcão por mudanca de estado, faca:
         INTCONbits.RBIF = 0; //*Reseta Bit de sinalizacão (flag) da interrupcão por mudanca de estado;
-        counter++; //*Adiciona uma unidade a variavel global de contagem
+        contador++; //*Adiciona uma unidade a variavel global de contagem
     }
 }
 
