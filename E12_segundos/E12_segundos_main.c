@@ -34,7 +34,6 @@ void main(void) {
             PIR1bits.TMR1IF = 0; //Apaga a Flag do Timer1 (reinicia)
             TMR1H =  0x3C; //Carga inicial Timer1 (Mais significativo)
             TMR1L = 0xB0; //Carga inicial Timer1 (Menos significativo)
-            __delay_ms(1000);
         }
     }
 }
