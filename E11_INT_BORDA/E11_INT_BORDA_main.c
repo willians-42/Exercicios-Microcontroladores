@@ -17,9 +17,9 @@
 #include <stdio.h> // biblioteca padrao C
 
 // Prototipo das funcoes 
-void interrompe();
-void inicializacao();
-void exibe_mensagem();
+void interrompe(void);
+void inicializacao(void);
+void exibe_mensagem(volatile unsigned int cc);
 
 // Variavel global para armazenar contagem
 volatile unsigned int contador = 0;
